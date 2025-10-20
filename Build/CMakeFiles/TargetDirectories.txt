@@ -1,0 +1,3 @@
+/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles/array_manipulator.dir
+/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles/edit_cache.dir
+/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles/rebuild_cache.dir
