@@ -129,6 +129,30 @@ array_manipulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/build
 .PHONY : array_manipulator/fast
 
+bubble_sort.o: bubble_sort.c.o
+.PHONY : bubble_sort.o
+
+# target to build an object file
+bubble_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/bubble_sort.c.o
+.PHONY : bubble_sort.c.o
+
+bubble_sort.i: bubble_sort.c.i
+.PHONY : bubble_sort.i
+
+# target to preprocess a source file
+bubble_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/bubble_sort.c.i
+.PHONY : bubble_sort.c.i
+
+bubble_sort.s: bubble_sort.c.s
+.PHONY : bubble_sort.s
+
+# target to generate assembly for a file
+bubble_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/bubble_sort.c.s
+.PHONY : bubble_sort.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... array_manipulator"
+	@echo "... bubble_sort.o"
+	@echo "... bubble_sort.i"
+	@echo "... bubble_sort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

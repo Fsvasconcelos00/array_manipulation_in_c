@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "bubble_sort.h"
 
 #define BUBBLE_SORT 1
 
@@ -45,6 +46,14 @@ int main(int argc, char *argv[])
     switch (selected_function)
     {
         case BUBBLE_SORT:
+            for(u_int32_t i = 0; i < array_size; i++)
+            {
+                printf("%d ", array[i]);
+            }
+            printf("\n");
+
+            bubble_sort(array, array_size);
+
             for(u_int32_t i = 0; i < array_size; i++)
             {
                 printf("%d ", array[i]);

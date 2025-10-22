@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/array_manipulator.dir/bubble_sort.c.o"
+  "CMakeFiles/array_manipulator.dir/bubble_sort.c.o.d"
   "CMakeFiles/array_manipulator.dir/main.c.o"
   "CMakeFiles/array_manipulator.dir/main.c.o.d"
   "array_manipulator"

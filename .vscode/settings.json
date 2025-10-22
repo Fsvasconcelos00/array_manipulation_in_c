@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "__config": "c"
+        "__config": "c",
+        "bubble_sort.h": "c",
+        "stdio.h": "c"
     }
 }

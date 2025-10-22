@@ -6,7 +6,7 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGSarm64 = -std=gnu11 -arch arm64
+C_FLAGSarm64 = -std=gnu2x -arch arm64
 
-C_FLAGS = -std=gnu11 -arch arm64
+C_FLAGS = -std=gnu2x -arch arm64
 
