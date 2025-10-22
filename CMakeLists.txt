@@ -5,4 +5,5 @@ set(CMAKE_C_STANDARD 23)
 
 add_executable(array_manipulator
                main.c
-               bubble_sort.c)
+               bubble_sort.c
+               selection_sort.c)

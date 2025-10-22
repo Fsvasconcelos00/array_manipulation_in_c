@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include "bubble_sort.h"
+#include "selection_sort.h"
 
 #define BUBBLE_SORT 1
+#define SELECTION_SORT 2
 
 int main(int argc, char *argv[])
 {
@@ -14,16 +16,24 @@ int main(int argc, char *argv[])
 
     for(argv_index = 0; argv_index < argc; argv_index++)
     {
-        if(strcmp(argv[argv_index], "-f") == 0)
+        if(strcmp(argv[argv_index], "--bubble_sort") == 0)
         {
             selected_function = BUBBLE_SORT;
-            
-            // Remaining arguments after "-f" are the integers
-            argv_index++; // move to the first number
-            array_size = argc - argv_index;
             break;
         }
+        else if(strcmp(argv[argv_index], "--selection_sort") == 0)
+        {
+            selected_function = SELECTION_SORT;
+            break;
+        }
+        else
+        {
+            printf("Wrong input");
+        }
     }
+    // Remaining arguments after the type of sort selected are the integers
+    argv_index++; // move to the first number
+    array_size = argc - argv_index;
 
     if (array_size == 0)
     {
@@ -46,14 +56,19 @@ int main(int argc, char *argv[])
     switch (selected_function)
     {
         case BUBBLE_SORT:
+            bubble_sort(array, array_size);
+
+            printf("Sorted array:\n");
             for(u_int32_t i = 0; i < array_size; i++)
             {
                 printf("%d ", array[i]);
             }
             printf("\n");
+            break;
+        case SELECTION_SORT:
+            selection_sort(array, array_size);
 
-            bubble_sort(array, array_size);
-
+            printf("Sorted array:\n");
             for(u_int32_t i = 0; i < array_size; i++)
             {
                 printf("%d ", array[i]);

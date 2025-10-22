@@ -177,6 +177,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/main.c.s
 .PHONY : main.c.s
 
+selection_sort.o: selection_sort.c.o
+.PHONY : selection_sort.o
+
+# target to build an object file
+selection_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/selection_sort.c.o
+.PHONY : selection_sort.c.o
+
+selection_sort.i: selection_sort.c.i
+.PHONY : selection_sort.i
+
+# target to preprocess a source file
+selection_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/selection_sort.c.i
+.PHONY : selection_sort.c.i
+
+selection_sort.s: selection_sort.c.s
+.PHONY : selection_sort.s
+
+# target to generate assembly for a file
+selection_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/selection_sort.c.s
+.PHONY : selection_sort.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... selection_sort.o"
+	@echo "... selection_sort.i"
+	@echo "... selection_sort.s"
 .PHONY : help
 
 
