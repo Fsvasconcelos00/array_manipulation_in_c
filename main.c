@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 #include "bubble_sort.h"
 #include "selection_sort.h"
 #include "typedef.h"
 
-#define BUBBLE_SORT 1
+#define BUBBLE_SORT    1
 #define SELECTION_SORT 2
 
 void print_array(arrayConfig_t my_array)
 {
     printf("Sorted array:\n");
-    for(u_int32_t i = 0; i < my_array.array_size; i++)
+    for(uint32_t i = 0; i < my_array.array_size; i++)
     {
         printf("%d ", my_array.array[i]);
     }
@@ -21,8 +22,8 @@ void print_array(arrayConfig_t my_array)
 int main(int argc, char *argv[])
 {
     arrayConfig_t my_array;
-    u_int16_t selected_function = 0;
-    u_int16_t argv_index        = 0;
+    uint16_t argv_index        = 0;
+    uint16_t selected_function = 0;
 
     for(argv_index = 1; argv_index < argc; argv_index++)
     {
@@ -44,7 +45,7 @@ int main(int argc, char *argv[])
 
     // Remaining arguments after the type of sort selected are the integers
     argv_index++; // move to the first number
-    my_array.array_size = argc - argv_index;
+    my_array.array_size = (argc - argv_index);
 
     if (my_array.array_size == 0)
     {
@@ -59,7 +60,7 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    for(u_int16_t i = 0; i < my_array.array_size; i++)
+    for(uint16_t i = 0; i < my_array.array_size; i++)
     {
         my_array.array[i] = atoi(argv[argv_index + i]);
     }
