@@ -43,6 +43,7 @@ CMakeFiles/array_manipulator.dir/bubble_sort.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.h
+ /Users/fernandovasconcelos/Documents/array_manipulation_in_c/typedef.h
 
 CMakeFiles/array_manipulator.dir/main.c.o
  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/main.c
@@ -140,6 +141,7 @@ CMakeFiles/array_manipulator.dir/main.c.o
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h
  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.h
  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.h
+ /Users/fernandovasconcelos/Documents/array_manipulation_in_c/typedef.h
 
 CMakeFiles/array_manipulator.dir/selection_sort.c.o
  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.c
@@ -183,4 +185,5 @@ CMakeFiles/array_manipulator.dir/selection_sort.c.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h
  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h
  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.h
+ /Users/fernandovasconcelos/Documents/array_manipulation_in_c/typedef.h
 

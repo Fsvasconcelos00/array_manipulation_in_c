@@ -93,4 +93,5 @@ CMakeFiles/array_manipulator.dir/main.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
   /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.h \
+  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/typedef.h \
   /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.h

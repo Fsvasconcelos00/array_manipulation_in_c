@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include "bubble_sort.h"
 
-void bubble_sort(int32_t* array, size_t array_size)
+void bubble_sort(arrayConfig_t my_array)
 {
-    for(u_int32_t i = 0; i < (array_size - 1); i++)
+    for(u_int32_t i = 0; i < (my_array.array_size - 1); i++)
     {
-        for(u_int32_t j = 0; j < (array_size - 1 - i); j++)
+        for(u_int32_t j = 0; j < (my_array.array_size - 1 - i); j++)
         {
-            if(array[j] > array[j + 1])
+            if(my_array.array[j] > my_array.array[j + 1])
             {
-                u_int32_t aux = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = aux;
+                u_int32_t aux = my_array.array[j];
+                my_array.array[j] = my_array.array[j + 1];
+                my_array.array[j + 1] = aux;
             }
         }
     }

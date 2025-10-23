@@ -39,4 +39,5 @@ CMakeFiles/array_manipulator.dir/selection_sort.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_common.h \
-  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.h
+  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.h \
+  /Users/fernandovasconcelos/Documents/array_manipulation_in_c/typedef.h

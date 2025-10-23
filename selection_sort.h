@@ -1,6 +1,7 @@
 #ifndef _SELECTION_SORT_H
 #define _SELECTION_SORT_H
+#include "typedef.h"
 
-void selection_sort(int32_t* array, size_t array_size);
+void selection_sort(arrayConfig_t my_array);
 
 #endif
