@@ -8,6 +8,16 @@
 #define BUBBLE_SORT 1
 #define SELECTION_SORT 2
 
+void print_array(arrayConfig_t my_array)
+{
+    printf("Sorted array:\n");
+    for(u_int32_t i = 0; i < my_array.array_size; i++)
+    {
+        printf("%d ", my_array.array[i]);
+    }
+    printf("\n");
+}
+
 int main(int argc, char *argv[])
 {
     arrayConfig_t my_array;
@@ -31,6 +41,7 @@ int main(int argc, char *argv[])
             printf("Wrong input");
         }
     }
+
     // Remaining arguments after the type of sort selected are the integers
     argv_index++; // move to the first number
     my_array.array_size = argc - argv_index;
@@ -57,23 +68,11 @@ int main(int argc, char *argv[])
     {
         case BUBBLE_SORT:
             bubble_sort(my_array);
-
-            printf("Sorted array:\n");
-            for(u_int32_t i = 0; i < my_array.array_size; i++)
-            {
-                printf("%d ", my_array.array[i]);
-            }
-            printf("\n");
+            print_array(my_array);
             break;
         case SELECTION_SORT:
             selection_sort(my_array);
-
-            printf("Sorted array:\n");
-            for(u_int32_t i = 0; i < my_array.array_size; i++)
-            {
-                printf("%d ", my_array.array[i]);
-            }
-            printf("\n");
+            print_array(my_array);
             break;
         
         default:
