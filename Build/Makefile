@@ -129,77 +129,77 @@ array_manipulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/build
 .PHONY : array_manipulator/fast
 
-bubble_sort.o: bubble_sort.c.o
-.PHONY : bubble_sort.o
+Source/bubble_sort.o: Source/bubble_sort.c.o
+.PHONY : Source/bubble_sort.o
 
 # target to build an object file
-bubble_sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/bubble_sort.c.o
-.PHONY : bubble_sort.c.o
+Source/bubble_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o
+.PHONY : Source/bubble_sort.c.o
 
-bubble_sort.i: bubble_sort.c.i
-.PHONY : bubble_sort.i
+Source/bubble_sort.i: Source/bubble_sort.c.i
+.PHONY : Source/bubble_sort.i
 
 # target to preprocess a source file
-bubble_sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/bubble_sort.c.i
-.PHONY : bubble_sort.c.i
+Source/bubble_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.i
+.PHONY : Source/bubble_sort.c.i
 
-bubble_sort.s: bubble_sort.c.s
-.PHONY : bubble_sort.s
+Source/bubble_sort.s: Source/bubble_sort.c.s
+.PHONY : Source/bubble_sort.s
 
 # target to generate assembly for a file
-bubble_sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/bubble_sort.c.s
-.PHONY : bubble_sort.c.s
+Source/bubble_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.s
+.PHONY : Source/bubble_sort.c.s
 
-main.o: main.c.o
-.PHONY : main.o
+Source/main.o: Source/main.c.o
+.PHONY : Source/main.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/main.c.o
-.PHONY : main.c.o
+Source/main.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/main.c.o
+.PHONY : Source/main.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+Source/main.i: Source/main.c.i
+.PHONY : Source/main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/main.c.i
-.PHONY : main.c.i
+Source/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/main.c.i
+.PHONY : Source/main.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+Source/main.s: Source/main.c.s
+.PHONY : Source/main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/main.c.s
-.PHONY : main.c.s
+Source/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/main.c.s
+.PHONY : Source/main.c.s
 
-selection_sort.o: selection_sort.c.o
-.PHONY : selection_sort.o
+Source/selection_sort.o: Source/selection_sort.c.o
+.PHONY : Source/selection_sort.o
 
 # target to build an object file
-selection_sort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/selection_sort.c.o
-.PHONY : selection_sort.c.o
+Source/selection_sort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o
+.PHONY : Source/selection_sort.c.o
 
-selection_sort.i: selection_sort.c.i
-.PHONY : selection_sort.i
+Source/selection_sort.i: Source/selection_sort.c.i
+.PHONY : Source/selection_sort.i
 
 # target to preprocess a source file
-selection_sort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/selection_sort.c.i
-.PHONY : selection_sort.c.i
+Source/selection_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/selection_sort.c.i
+.PHONY : Source/selection_sort.c.i
 
-selection_sort.s: selection_sort.c.s
-.PHONY : selection_sort.s
+Source/selection_sort.s: Source/selection_sort.c.s
+.PHONY : Source/selection_sort.s
 
 # target to generate assembly for a file
-selection_sort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/selection_sort.c.s
-.PHONY : selection_sort.c.s
+Source/selection_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array_manipulator.dir/build.make CMakeFiles/array_manipulator.dir/Source/selection_sort.c.s
+.PHONY : Source/selection_sort.c.s
 
 # Help Target
 help:
@@ -210,15 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... array_manipulator"
-	@echo "... bubble_sort.o"
-	@echo "... bubble_sort.i"
-	@echo "... bubble_sort.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... selection_sort.o"
-	@echo "... selection_sort.i"
-	@echo "... selection_sort.s"
+	@echo "... Source/bubble_sort.o"
+	@echo "... Source/bubble_sort.i"
+	@echo "... Source/bubble_sort.s"
+	@echo "... Source/main.o"
+	@echo "... Source/main.i"
+	@echo "... Source/main.s"
+	@echo "... Source/selection_sort.o"
+	@echo "... Source/selection_sort.i"
+	@echo "... Source/selection_sort.s"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Headers
 
 C_FLAGSarm64 = -std=gnu2x -arch arm64
 

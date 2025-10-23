@@ -72,60 +72,60 @@ include CMakeFiles/array_manipulator.dir/flags.make
 CMakeFiles/array_manipulator.dir/codegen:
 .PHONY : CMakeFiles/array_manipulator.dir/codegen
 
-CMakeFiles/array_manipulator.dir/main.c.o: CMakeFiles/array_manipulator.dir/flags.make
-CMakeFiles/array_manipulator.dir/main.c.o: /Users/fernandovasconcelos/Documents/array_manipulation_in_c/main.c
-CMakeFiles/array_manipulator.dir/main.c.o: CMakeFiles/array_manipulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/array_manipulator.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/array_manipulator.dir/main.c.o -MF CMakeFiles/array_manipulator.dir/main.c.o.d -o CMakeFiles/array_manipulator.dir/main.c.o -c /Users/fernandovasconcelos/Documents/array_manipulation_in_c/main.c
+CMakeFiles/array_manipulator.dir/Source/main.c.o: CMakeFiles/array_manipulator.dir/flags.make
+CMakeFiles/array_manipulator.dir/Source/main.c.o: /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/main.c
+CMakeFiles/array_manipulator.dir/Source/main.c.o: CMakeFiles/array_manipulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/array_manipulator.dir/Source/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/array_manipulator.dir/Source/main.c.o -MF CMakeFiles/array_manipulator.dir/Source/main.c.o.d -o CMakeFiles/array_manipulator.dir/Source/main.c.o -c /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/main.c
 
-CMakeFiles/array_manipulator.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/array_manipulator.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fernandovasconcelos/Documents/array_manipulation_in_c/main.c > CMakeFiles/array_manipulator.dir/main.c.i
+CMakeFiles/array_manipulator.dir/Source/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/array_manipulator.dir/Source/main.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/main.c > CMakeFiles/array_manipulator.dir/Source/main.c.i
 
-CMakeFiles/array_manipulator.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/array_manipulator.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fernandovasconcelos/Documents/array_manipulation_in_c/main.c -o CMakeFiles/array_manipulator.dir/main.c.s
+CMakeFiles/array_manipulator.dir/Source/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/array_manipulator.dir/Source/main.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/main.c -o CMakeFiles/array_manipulator.dir/Source/main.c.s
 
-CMakeFiles/array_manipulator.dir/bubble_sort.c.o: CMakeFiles/array_manipulator.dir/flags.make
-CMakeFiles/array_manipulator.dir/bubble_sort.c.o: /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.c
-CMakeFiles/array_manipulator.dir/bubble_sort.c.o: CMakeFiles/array_manipulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/array_manipulator.dir/bubble_sort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/array_manipulator.dir/bubble_sort.c.o -MF CMakeFiles/array_manipulator.dir/bubble_sort.c.o.d -o CMakeFiles/array_manipulator.dir/bubble_sort.c.o -c /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.c
+CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o: CMakeFiles/array_manipulator.dir/flags.make
+CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o: /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/bubble_sort.c
+CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o: CMakeFiles/array_manipulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o -MF CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o.d -o CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o -c /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/bubble_sort.c
 
-CMakeFiles/array_manipulator.dir/bubble_sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/array_manipulator.dir/bubble_sort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.c > CMakeFiles/array_manipulator.dir/bubble_sort.c.i
+CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/bubble_sort.c > CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.i
 
-CMakeFiles/array_manipulator.dir/bubble_sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/array_manipulator.dir/bubble_sort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fernandovasconcelos/Documents/array_manipulation_in_c/bubble_sort.c -o CMakeFiles/array_manipulator.dir/bubble_sort.c.s
+CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/bubble_sort.c -o CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.s
 
-CMakeFiles/array_manipulator.dir/selection_sort.c.o: CMakeFiles/array_manipulator.dir/flags.make
-CMakeFiles/array_manipulator.dir/selection_sort.c.o: /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.c
-CMakeFiles/array_manipulator.dir/selection_sort.c.o: CMakeFiles/array_manipulator.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/array_manipulator.dir/selection_sort.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/array_manipulator.dir/selection_sort.c.o -MF CMakeFiles/array_manipulator.dir/selection_sort.c.o.d -o CMakeFiles/array_manipulator.dir/selection_sort.c.o -c /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.c
+CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o: CMakeFiles/array_manipulator.dir/flags.make
+CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o: /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/selection_sort.c
+CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o: CMakeFiles/array_manipulator.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o -MF CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o.d -o CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o -c /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/selection_sort.c
 
-CMakeFiles/array_manipulator.dir/selection_sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/array_manipulator.dir/selection_sort.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.c > CMakeFiles/array_manipulator.dir/selection_sort.c.i
+CMakeFiles/array_manipulator.dir/Source/selection_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/array_manipulator.dir/Source/selection_sort.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/selection_sort.c > CMakeFiles/array_manipulator.dir/Source/selection_sort.c.i
 
-CMakeFiles/array_manipulator.dir/selection_sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/array_manipulator.dir/selection_sort.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fernandovasconcelos/Documents/array_manipulation_in_c/selection_sort.c -o CMakeFiles/array_manipulator.dir/selection_sort.c.s
+CMakeFiles/array_manipulator.dir/Source/selection_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/array_manipulator.dir/Source/selection_sort.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/fernandovasconcelos/Documents/array_manipulation_in_c/Source/selection_sort.c -o CMakeFiles/array_manipulator.dir/Source/selection_sort.c.s
 
 # Object files for target array_manipulator
 array_manipulator_OBJECTS = \
-"CMakeFiles/array_manipulator.dir/main.c.o" \
-"CMakeFiles/array_manipulator.dir/bubble_sort.c.o" \
-"CMakeFiles/array_manipulator.dir/selection_sort.c.o"
+"CMakeFiles/array_manipulator.dir/Source/main.c.o" \
+"CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o" \
+"CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o"
 
 # External object files for target array_manipulator
 array_manipulator_EXTERNAL_OBJECTS =
 
-array_manipulator: CMakeFiles/array_manipulator.dir/main.c.o
-array_manipulator: CMakeFiles/array_manipulator.dir/bubble_sort.c.o
-array_manipulator: CMakeFiles/array_manipulator.dir/selection_sort.c.o
+array_manipulator: CMakeFiles/array_manipulator.dir/Source/main.c.o
+array_manipulator: CMakeFiles/array_manipulator.dir/Source/bubble_sort.c.o
+array_manipulator: CMakeFiles/array_manipulator.dir/Source/selection_sort.c.o
 array_manipulator: CMakeFiles/array_manipulator.dir/build.make
 array_manipulator: CMakeFiles/array_manipulator.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/fernandovasconcelos/Documents/array_manipulation_in_c/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable array_manipulator"

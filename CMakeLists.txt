@@ -4,6 +4,9 @@ project(MyCProgram C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(array_manipulator
-               main.c
-               bubble_sort.c
-               selection_sort.c)
+               Source/main.c
+               Source/bubble_sort.c
+               Source/selection_sort.c)
+
+# Add include directory *only for this target*
+target_include_directories(array_manipulator PRIVATE Headers)
